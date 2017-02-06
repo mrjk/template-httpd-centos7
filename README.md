@@ -1,5 +1,5 @@
 # template-httpd-centos7
-This is a security-safe default configuration for httpd and php on CentOS 7.
+This is a security-safe default configuration for httpd and php on CentOS 7. This is a beta.
 
 ## Information
 
@@ -10,6 +10,14 @@ This templates comes with a number of "good" parameters for production. It bring
 * Provide a site-enabled/site-availalable structure
 * Push default security settings
 * Provide a safe blank blank vhost
+
+## Compatibility
+
+You will need:
+
+* Apache 2.4
+* CentOS7/RHEL7
+* PHP 5.6
 
 ## Notes
 This is a beta, you should always review any line of code before putting this in production. Licensed under Apache License.
